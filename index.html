@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio van Daan Vermeulen – Graphic designer. Fotografie, design, film, photoshop, animatie en coding." />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio | Daan Vermeulen</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#home" data-i18n="skip-link">Ga naar inhoud</a>
+
+  <button class="language-toggle" aria-label="Toggle language" title="EN / FR">
+    <span class="lang-display">NL</span>
+  </button>
+
+  <button class="vragen-button" aria-label="Vragen" title="Vragen" data-i18n="vragen-button">Vragen</button>
+
+  <div class="intro-overlay" aria-hidden="true">
+    <div class="intro-word" id="introWord">VERMEULEN.</div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Naar bovenaan">
+        <span class="brand-title" data-i18n="brand-title">Portfolio</span>
+        <span class="brand-subtitle" data-i18n="brand-subtitle">Graphic designer</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Hoofdnavigatie">
+        <ul class="nav-list">
+          <li class="menu">
+            <button class="menu-button" aria-haspopup="true" aria-expanded="false">Menu</button>
+            <ul class="menu-dropdown" aria-label="Menu items">
+              <li><a href="#home" data-i18n="nav-home">Home</a></li>
+              <li><a href="#projecten" data-i18n="nav-projecten">Projecten</a></li>
+              <li><a href="#bio" data-i18n="nav-bio">Bio</a></li>
+              <li><a href="#fotografie" data-i18n="nav-fotografie">Fotografie</a></li>
+              <li><a href="#photoshop" data-i18n="nav-photoshop">Photoshop</a></li>
+              <li><a href="#film" data-i18n="nav-film">Film</a></li>
+              <li><a href="#animatie" data-i18n="nav-animatie">Animatie</a></li>
+              <li><a href="#design" data-i18n="nav-design">Design</a></li>
+              <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="page">
+
+    <section class="hero section" data-fade aria-label="Intro">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            <span data-i18n="hero-title-name">Daan Vermeulen</span>
+            <span class="hero-role" data-i18n="hero-title-role">Graphic designer</span>
+          </h1>
+
+          <p class="hero-lead" data-i18n="hero-lead">
+            Portfolio met projecten in fotografie, design, film, photoshop, animatie en coding.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#projecten" data-i18n="hero-cta-projects">Bekijk projecten</a>
+            <a class="btn btn-ghost" href="#contact" data-i18n="hero-cta-contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <figure class="media-frame">
+            <img
+              src="assets/start foto website.jpg"
+              alt="Start foto website"
+              loading="eager"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="bio" class="section" data-fade aria-labelledby="bio-title">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 id="bio-title" data-i18n="bio-title">BIO</h2>
+
+          <p data-i18n="bio-text-1">
+            Ik ben Daan Vermeulen, student aan TSM Mechelen en zit in het 6e middelbaar,
+            richting Crossmedia STEAM. Ik ben een grafisch ontwerper met ervaring in
+            Adobe-programma's, Canva, Figma en Visual Studio Code. Ik werkte aan projecten
+            in fotografie, design, film, Photoshop, animatie en coding.
+          </p>
+
+          <p data-i18n="bio-text-2">
+            Ik ben leergierig, werk goed in een team en ga constructief om met feedback.
+            Ik wil mezelf voortdurend verbeteren; dat zie je terug in mijn werk.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <figure class="media-frame">
+            <img
+              src="assets/fotogragfie - bio.jpeg"
+              alt="Bio foto"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="projecten" class="section" data-fade aria-labelledby="projecten-title">
+      <div class="container split split-reverse">
+        <div class="split-copy">
+          <h2 id="projecten-title" data-i18n="projecten-title">Projecten</h2>
+
+          <p data-i18n="projecten-text-1">
+            Ik heb al aan veel verschillende projecten meegewerkt, groot, klein,
+            alleen of in groep. Deze projecten verschillen ook hard qua inhoud.
+            Dit gaat zo breed als van fotografie tot coding en van design tot
+            filmproductie.
+          </p>
+
+          <p class="emphasis" data-i18n="projecten-emphasis">
+            Ik geef me altijd volledig voor elk project waaraan ik werk en stop
+            niet voordat ik tevreden ben.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <div class="photo-gallery" data-gallery="projecten">
+            <figure class="media-frame">
+              <img
+                src="assets/projecten/filmproductie.jpeg"
+                alt="Projecten foto"
+                loading="lazy"
+                decoding="async"
+                class="gallery-image"
+              />
+            </figure>
+            <button class="gallery-btn gallery-prev" aria-label="Vorige foto">❮</button>
+            <button class="gallery-btn gallery-next" aria-label="Volgende foto">❯</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fotografie" class="section" data-fade aria-labelledby="fotografie-title">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 id="fotografie-title" data-i18n="fotografie-title">Fotografie</h2>
+
+          <p data-i18n="fotografie-text-1">
+            Fotografie is een van mijn passies; dit is het soort project waar ik het
+            liefst aan werk. Ik werk met Canon-camera's en bewerk mijn foto's in
+            Lightroom en, waar nodig, in Photoshop.
+          </p>
+
+          <p class="emphasis" data-i18n="fotografie-emphasis">
+            Ik heb verdiepte kennis van technische aspecten zoals scherptediepte,
+            belichting, diafragma en sluitertijd.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <div class="photo-gallery" data-gallery="fotografie">
+            <figure class="media-frame">
+              <img
+                src="assets/amsterdam.jpeg"
+                alt="Fotografie"
+                loading="lazy"
+                decoding="async"
+                class="gallery-image"
+              />
+            </figure>
+            <button class="gallery-btn gallery-prev" aria-label="Vorige foto">❮</button>
+            <button class="gallery-btn gallery-next" aria-label="Volgende foto">❯</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="photoshop" class="section" data-fade aria-labelledby="photoshop-title">
+      <div class="container split split-reverse">
+        <div class="split-copy">
+          <h2 id="photoshop-title" data-i18n="photoshop-title">Photoshop</h2>
+
+          <p data-i18n="photoshop-text-1">
+            Voor Photoshop gebruik ik Adobe Photoshop. Hiermee kan ik eenvoudig
+            elementen verwijderen, versterken of composities van meerdere beelden maken.
+          </p>
+
+          <p class="emphasis" data-i18n="photoshop-text-2">
+            Voor deze projecten werk ik soms met realistische beelden en subtiele
+            aanpassingen, maar ook met extreem surrealistische werken waarin ik mijn
+            verbeelding de vrije loop laat.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <div class="photo-gallery" data-gallery="photoshop">
+            <figure class="media-frame">
+              <img
+                src="assets/foto - photoshop.jpg"
+                alt="Photoshop"
+                loading="lazy"
+                decoding="async"
+                class="gallery-image"
+              />
+            </figure>
+            <button class="gallery-btn gallery-prev" aria-label="Vorige foto">❮</button>
+            <button class="gallery-btn gallery-next" aria-label="Volgende foto">❯</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="film" class="section" data-fade aria-labelledby="film-title">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 id="film-title" data-i18n="film-title">Film</h2>
+
+          <p data-i18n="film-text-1">
+            Ik werkte mee aan filmproducties, zoals kortfilms, trailers en
+            reclamevideo's. Hierbij was ik betrokken bij het hele proces: van
+            brainstorm en storyboard tot filmmomenten en soms ook acteren.
+          </p>
+
+          <p class="emphasis" data-i18n="film-text-2">
+            Ik bewerkte de video's vervolgens zelf en gebruikte technieken zoals
+            color grading, belichting, montage en audiobewerking.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <figure class="media-frame">
+            <video class="media-video" controls muted playsinline preload="metadata">
+              <source src="assets/Video website film.mp4" type="video/mp4" />
+              Je browser ondersteunt deze video niet.
+            </video>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="animatie" class="section" data-fade aria-labelledby="animatie-title">
+      <div class="container split split-reverse">
+        <div class="split-copy">
+          <h2 id="animatie-title" data-i18n="animatie-title">Animatie</h2>
+
+          <p data-i18n="animatie-text-1">
+            Voor animatie gebruik ik Adobe After Effects. De illustraties teken ik
+            zelf in Illustrator en animeer ze daarna, met als einddoel zo soepel
+            mogelijk beeld te creëren.
+          </p>
+
+          <p class="emphasis" data-i18n="animatie-emphasis">
+            Bij deze vorm van animatie werk ik vooral met keyframes en maak ik vaak
+            gebruik van snelle cuts.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <figure class="media-frame">
+            <video class="media-video" controls muted playsinline preload="metadata" poster="assets/screenshot video animatie portfolio.png">
+              <source src="assets/video - animatie.mp4" type="video/mp4" />
+              Je browser ondersteunt deze video niet.
+            </video>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="design" class="section" data-fade aria-labelledby="design-title">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 id="design-title" data-i18n="design-title">Design</h2>
+
+          <p data-i18n="design-text-1">
+            Voor designprojecten teken ik illustraties in Illustrator of maak ik
+            opmaken in InDesign. Bij een opmaak — bijvoorbeeld voor een poster —
+            houd ik rekening met witruimte, hiërarchie en typografie; bij illustraties
+            werk ik met vectoren.
+          </p>
+
+          <p class="emphasis" data-i18n="design-text-2">
+            Illustraties lever ik als vectorbestanden om ze scherp te houden. Opmaken
+            exporteer ik bij voorkeur als PDF om de kwaliteit te behouden.
+          </p>
+        </div>
+
+        <div class="split-media">
+          <div class="photo-gallery" data-gallery="design">
+            <figure class="media-frame">
+              <img
+                src="assets/design/foto - design.jpg"
+                alt="Design"
+                loading="lazy"
+                decoding="async"
+                class="gallery-image"
+              />
+            </figure>
+            <button class="gallery-btn gallery-prev" aria-label="Vorige foto">❮</button>
+            <button class="gallery-btn gallery-next" aria-label="Volgende foto">❯</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer" data-fade>
+    <div class="container footer-grid">
+      <div class="footer-media">
+        <figure class="media-frame">
+          <img src="assets/foto - footer.jpg" alt="Footer beeld" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+
+      <div class="footer-copy">
+        <h2 data-i18n="footer-contact-title">Contact</h2>
+        <div class="contact-boxes">
+          <a href="tel:+32493460339" class="contact-box" aria-label="Bel mij">
+            <span class="contact-icon">☎</span>
+            <span class="contact-label">+32493460339</span>
+          </a>
+          <a href="mailto:vrmlndn@gmail.com" class="contact-box" aria-label="E-mail">
+            <span class="contact-icon">✉</span>
+            <span class="contact-label">vrmlndn@gmail.com</span>
+          </a>
+          <a href="https://nl.pinterest.com/vrmlndn/" target="_blank" rel="noopener noreferrer" class="contact-box" aria-label="Pinterest">
+            <span class="contact-icon">📌</span>
+            <span class="contact-label">Pinterest</span>
+          </a>
+          <a href="https://www.instagram.com/daan_vermeule/" target="_blank" rel="noopener noreferrer" class="contact-box" aria-label="Instagram">
+            <span class="contact-icon">📷</span>
+            <span class="contact-label">Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100070487342412" target="_blank" rel="noopener noreferrer" class="contact-box" aria-label="Facebook">
+            <span class="contact-icon">f</span>
+            <span class="contact-label">Facebook</span>
+          </a>
+          <a href="https://wa.me/qr/IQZSFT5J2WBII1" target="_blank" rel="noopener noreferrer" class="contact-box" aria-label="WhatsApp">
+            <span class="contact-icon">💬</span>
+            <span class="contact-label">WhatsApp</span>
+          </a>
+        </div>
+
+        <p class="footer-small">© <span id="year"></span> Daan Vermeulen</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+
+  <div id="vragenModal" class="modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Stel een vraag">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Sluit">✕</button>
+      <h3 data-i18n="vragen-modal-title">Vragen</h3>
+      <form id="vragenForm">
+        <label class="form-row" data-i18n="vragen-naam">Naam
+          <input type="text" name="naam" required />
+        </label>
+
+        <label class="form-row" data-i18n="vragen-email">Email
+          <input type="email" name="email" required />
+        </label>
+
+        <label class="form-row" data-i18n="vragen-vraag">Vraag
+          <textarea name="vraag" rows="4" required></textarea>
+        </label>
+
+        <div class="modal-actions">
+          <button type="submit" class="btn" data-i18n="vragen-submit">Verstuur</button>
+          <button type="button" class="btn btn-ghost" data-modal-close data-i18n="vragen-cancel">Annuleer</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
